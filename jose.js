@@ -78,7 +78,7 @@ const multiplicacion = (num1, num2) => {
 };
 
 console.log(multiplicacion(3))
-*/
+
 
 let semana = ["lunes", "martes"];
 console.log(semana.length);
@@ -90,4 +90,12 @@ semana.push("Nuevo dia") // agregar un elemento
 semana.shift(); // elimina el primero
 semana.pop(); // Elimina el ultimo
 semana.unshift
-console.log(semana);
+console.log(semana); */
+
+
+  const resta = function(num1=0, num2=0){
+
+    return num1-num2;
+}
+
+console.log(resta(4,6)) 
